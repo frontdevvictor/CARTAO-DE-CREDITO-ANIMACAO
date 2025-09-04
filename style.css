@@ -211,8 +211,6 @@ body {
   height: 100%;
   background-color: #1c1d27;
   position: absolute;
-  height: 100%;
-  background-color: #1c1d27;
   left: 0;
   top: 0;
   width: 100%;
@@ -538,7 +536,7 @@ body {
 .card-input__input.-select {
   appearance: none;
   -webkit-appearance: none;
-  background-image: url("/assets/images/dropdown.png");
+  background-image: url("./assets/images/dropdown.png"); /* Corrigido o caminho */
   background-size: 12px;
   background-position: 90% center;
   background-repeat: no-repeat;
